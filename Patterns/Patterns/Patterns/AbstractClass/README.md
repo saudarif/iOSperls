@@ -83,3 +83,7 @@ yennefer.introduce()        //Hello!! I am a Human.
 
 ```
 
+
+And that is all to it.
+
+See you in the next post. :]
