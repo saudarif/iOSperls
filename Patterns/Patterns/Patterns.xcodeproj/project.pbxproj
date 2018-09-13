@@ -25,6 +25,9 @@
 
 /* Begin PBXFileReference section */
 		3C49692B214A966F00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C49692D214ABACB00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C49692F214ABB6B00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C496931214ABB9F00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C95D8BC214A6B6500C26A71 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C95D8BF214A6B6500C26A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
@@ -41,6 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C49692C214ABAA200EBF142 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				3C49692D214ABACB00EBF142 /* README.md */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		3C49692E214ABB4C00EBF142 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				3C49692F214ABB6B00EBF142 /* README.md */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
+		3C496930214ABB8C00EBF142 /* Behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				3C496931214ABB9F00EBF142 /* README.md */,
+			);
+			path = Behavioral;
+			sourceTree = "<group>";
+		};
 		3C95D8B3214A6B6500C26A71 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +87,9 @@
 		3C95D8BE214A6B6500C26A71 /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				3C496930214ABB8C00EBF142 /* Behavioral */,
+				3C49692E214ABB4C00EBF142 /* Structural */,
+				3C49692C214ABAA200EBF142 /* Creational */,
 				3C95D8C6214A6B8500C26A71 /* AbstractClass */,
 				3C95D8BF214A6B6500C26A71 /* main.swift */,
 			);
