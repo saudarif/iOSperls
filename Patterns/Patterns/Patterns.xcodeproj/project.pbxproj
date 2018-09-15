@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C496935214AD08300EBF142 /* TextReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C496934214AD08300EBF142 /* TextReader.swift */; };
+		3C496937214AD1E100EBF142 /* HTMLReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C496936214AD1E100EBF142 /* HTMLReader.swift */; };
+		3C496939214AD20400EBF142 /* TXTReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C496938214AD20400EBF142 /* TXTReader.swift */; };
+		3C49693B214AD21100EBF142 /* RTFReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49693A214AD21100EBF142 /* RTFReader.swift */; };
+		3C4E3748214C224900EBB2E1 /* TextReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E3747214C224900EBB2E1 /* TextReaderFactory.swift */; };
 		3C95D8C0214A6B6500C26A71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8BF214A6B6500C26A71 /* main.swift */; };
 		3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */; };
+		3CB16FE2214D18AE00AA1FC4 /* TXTFile.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3743214C054300EBB2E1 /* TXTFile.txt */; };
+		3CB16FE3214D18AE00AA1FC4 /* HTMLFile.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3744214C055700EBB2E1 /* HTMLFile.html */; };
+		3CB16FE4214D18AE00AA1FC4 /* RTFFile.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3746214C084100EBB2E1 /* RTFFile.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		3C95D8BA214A6B6500C26A71 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				3CB16FE2214D18AE00AA1FC4 /* TXTFile.txt in CopyFiles */,
+				3CB16FE3214D18AE00AA1FC4 /* HTMLFile.html in CopyFiles */,
+				3CB16FE4214D18AE00AA1FC4 /* RTFFile.rtf in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -28,6 +39,15 @@
 		3C49692D214ABACB00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C49692F214ABB6B00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C496931214ABB9F00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C496933214ACDDD00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C496934214AD08300EBF142 /* TextReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReader.swift; sourceTree = "<group>"; };
+		3C496936214AD1E100EBF142 /* HTMLReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLReader.swift; sourceTree = "<group>"; };
+		3C496938214AD20400EBF142 /* TXTReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TXTReader.swift; sourceTree = "<group>"; };
+		3C49693A214AD21100EBF142 /* RTFReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTFReader.swift; sourceTree = "<group>"; };
+		3C4E3743214C054300EBB2E1 /* TXTFile.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = TXTFile.txt; sourceTree = "<group>"; };
+		3C4E3744214C055700EBB2E1 /* HTMLFile.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = HTMLFile.html; sourceTree = "<group>"; };
+		3C4E3746214C084100EBB2E1 /* RTFFile.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = RTFFile.rtf; sourceTree = "<group>"; };
+		3C4E3747214C224900EBB2E1 /* TextReaderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderFactory.swift; sourceTree = "<group>"; };
 		3C95D8BC214A6B6500C26A71 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C95D8BF214A6B6500C26A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
@@ -47,6 +67,7 @@
 		3C49692C214ABAA200EBF142 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3C496932214ACDC000EBF142 /* SimpleFactory */,
 				3C49692D214ABACB00EBF142 /* README.md */,
 			);
 			path = Creational;
@@ -66,6 +87,30 @@
 				3C496931214ABB9F00EBF142 /* README.md */,
 			);
 			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		3C496932214ACDC000EBF142 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E3742214C052500EBB2E1 /* Resources */,
+				3C496933214ACDDD00EBF142 /* README.md */,
+				3C496934214AD08300EBF142 /* TextReader.swift */,
+				3C496936214AD1E100EBF142 /* HTMLReader.swift */,
+				3C496938214AD20400EBF142 /* TXTReader.swift */,
+				3C49693A214AD21100EBF142 /* RTFReader.swift */,
+				3C4E3747214C224900EBB2E1 /* TextReaderFactory.swift */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		3C4E3742214C052500EBB2E1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C4E3743214C054300EBB2E1 /* TXTFile.txt */,
+				3C4E3744214C055700EBB2E1 /* HTMLFile.html */,
+				3C4E3746214C084100EBB2E1 /* RTFFile.rtf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		3C95D8B3214A6B6500C26A71 = {
@@ -162,8 +207,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C496939214AD20400EBF142 /* TXTReader.swift in Sources */,
+				3C496935214AD08300EBF142 /* TextReader.swift in Sources */,
 				3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */,
+				3C4E3748214C224900EBB2E1 /* TextReaderFactory.swift in Sources */,
+				3C49693B214AD21100EBF142 /* RTFReader.swift in Sources */,
 				3C95D8C0214A6B6500C26A71 /* main.swift in Sources */,
+				3C496937214AD1E100EBF142 /* HTMLReader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

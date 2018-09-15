@@ -8,6 +8,7 @@
 
 import Foundation
 
-AbstractClass_Demo()
-AbstractClass_Demo2()
+//AbstractClass_Demo()
+//AbstractClass_Demo2()
 
+SimpleFactoryDemo()
