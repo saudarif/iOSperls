@@ -40,7 +40,7 @@ protocol TextReader {
 Above protocol defines the abstract interface of our Text Reader.
 And now create concrete implementation classes that confirms the protocol (or create subclasses of abstract type) . There will be 3 concrete implementations of TextReader, one for reading each type. 
 
-###TXTReader.swift
+### TXTReader.swift
 ```
 class TXTReader : TextReader {
     var content: NSAttributedString?
@@ -69,7 +69,7 @@ class TXTReader : TextReader {
 }
 ```
 
-###RTFReader.swift
+### RTFReader.swift
 ```
 class RTFReader : TextReader {
     var content: NSAttributedString?
@@ -96,7 +96,7 @@ class RTFReader : TextReader {
 }
 ```
 
-###HTMLReader.swift
+### HTMLReader.swift
 ```
 class HTMLReader : TextReader {
     var content: NSAttributedString?
@@ -166,7 +166,6 @@ func SimpleFactoryDemo() {
     if let textFileURL = Bundle.main.url(forResource: "TXTFile", withExtension: "txt"){
         let reader = factory.createTextReader(ofType: TextReaderFactory.ReaderType.TXT, withURL: textFileURL)
         reader.read()
-        print(reader.content?.string ?? "Sorry")
     }
     
 }
@@ -181,7 +180,6 @@ func SimpleFactoryDemo() {
     if let rtfFileURL = Bundle.main.url(forResource: "RTFFile", withExtension: "rtf"){
         let reader = factory.createTextReader(ofType: TextReaderFactory.ReaderType.RTF, withURL: rtfFileURL)
         reader.read()
-        print(reader.content?.string ?? "Sorry")
     }
 
 }
@@ -198,7 +196,6 @@ func SimpleFactoryDemo() {
     if let htmlFileURL = Bundle.main.url(forResource: "HTMLFile", withExtension: "html"){
         let reader = factory.createTextReader(ofType: TextReaderFactory.ReaderType.HTML, withURL: htmlFileURL)
         reader.read()
-        print(reader.content?.string ?? "Sorry")
     }
 
 }
