@@ -12,6 +12,10 @@
 		3C496939214AD20400EBF142 /* TXTReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C496938214AD20400EBF142 /* TXTReader.swift */; };
 		3C49693B214AD21100EBF142 /* RTFReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C49693A214AD21100EBF142 /* RTFReader.swift */; };
 		3C4E3748214C224900EBB2E1 /* TextReaderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4E3747214C224900EBB2E1 /* TextReaderFactory.swift */; };
+		3C655C222155ECDD00A4F1C2 /* DocumentViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C655C212155ECDD00A4F1C2 /* DocumentViewFactory.swift */; };
+		3C90E5E021574B93006511E7 /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E5DF21574B93006511E7 /* MediaView.swift */; };
+		3C90E5E22157577E006511E7 /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E5E12157577E006511E7 /* DocumentView.swift */; };
+		3C90E5E421576A06006511E7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E5E321576A06006511E7 /* TextView.swift */; };
 		3C95D8C0214A6B6500C26A71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8BF214A6B6500C26A71 /* main.swift */; };
 		3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */; };
 		3CB16FE2214D18AE00AA1FC4 /* TXTFile.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3743214C054300EBB2E1 /* TXTFile.txt */; };
@@ -48,6 +52,11 @@
 		3C4E3744214C055700EBB2E1 /* HTMLFile.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = HTMLFile.html; sourceTree = "<group>"; };
 		3C4E3746214C084100EBB2E1 /* RTFFile.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = RTFFile.rtf; sourceTree = "<group>"; };
 		3C4E3747214C224900EBB2E1 /* TextReaderFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextReaderFactory.swift; sourceTree = "<group>"; };
+		3C655C212155ECDD00A4F1C2 /* DocumentViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewFactory.swift; sourceTree = "<group>"; };
+		3C90E5DF21574B93006511E7 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
+		3C90E5E12157577E006511E7 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		3C90E5E321576A06006511E7 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		3C90E5E521576C3F006511E7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C95D8BC214A6B6500C26A71 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C95D8BF214A6B6500C26A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
@@ -67,6 +76,7 @@
 		3C49692C214ABAA200EBF142 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3C655C202155EC4E00A4F1C2 /* AbstractFactory */,
 				3C496932214ACDC000EBF142 /* SimpleFactory */,
 				3C49692D214ABACB00EBF142 /* README.md */,
 			);
@@ -111,6 +121,18 @@
 				3C4E3746214C084100EBB2E1 /* RTFFile.rtf */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C655C202155EC4E00A4F1C2 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				3C655C212155ECDD00A4F1C2 /* DocumentViewFactory.swift */,
+				3C90E5DF21574B93006511E7 /* MediaView.swift */,
+				3C90E5E12157577E006511E7 /* DocumentView.swift */,
+				3C90E5E321576A06006511E7 /* TextView.swift */,
+				3C90E5E521576C3F006511E7 /* README.md */,
+			);
+			path = AbstractFactory;
 			sourceTree = "<group>";
 		};
 		3C95D8B3214A6B6500C26A71 = {
@@ -208,12 +230,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C496939214AD20400EBF142 /* TXTReader.swift in Sources */,
+				3C90E5E421576A06006511E7 /* TextView.swift in Sources */,
 				3C496935214AD08300EBF142 /* TextReader.swift in Sources */,
 				3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */,
 				3C4E3748214C224900EBB2E1 /* TextReaderFactory.swift in Sources */,
 				3C49693B214AD21100EBF142 /* RTFReader.swift in Sources */,
 				3C95D8C0214A6B6500C26A71 /* main.swift in Sources */,
+				3C655C222155ECDD00A4F1C2 /* DocumentViewFactory.swift in Sources */,
 				3C496937214AD1E100EBF142 /* HTMLReader.swift in Sources */,
+				3C90E5E021574B93006511E7 /* MediaView.swift in Sources */,
+				3C90E5E22157577E006511E7 /* DocumentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
