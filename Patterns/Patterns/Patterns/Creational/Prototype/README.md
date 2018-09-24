@@ -1,11 +1,11 @@
 # Prototype Design Pattern
 
-During application development process, we uswally come across situations in which we need to create copy of an existing object. And in Swift we do that using assignment operator for most of the time. But assignmen operator uswally ends up incrementing the retain count of the object and does not creates a seperate "Duplicate" object. But what if we need to create a duplicate object ? That is if i change the duplicate object, that will not affect the original instance.<br\>
+During application development process, we uswally come across situations in which we need to create copy of an existing object. And in Swift we do that using assignment operator for most of the time. But assignmen operator uswally ends up incrementing the retain count of the object and does not creates a seperate "Duplicate" object. But what if we need to create a duplicate object ? That is if i change the duplicate object, that will not affect the original instance.<br/>
 That is where the Prototype Design Pattern helps us.
 
 ## Why do we need Prototype Design Pattern ?
 
-Prototype pattern helps in creating copies of an existing object. Now the question is, Why do you want to create a copy ?<br\>
+Prototype pattern helps in creating copies of an existing object. Now the question is, Why do you want to create a copy ?<br/>
 There can be several answers to this, depending on the situation.
 * Sometimes Object creation is a costly affair and requires a lot of time and resources. For example calling a DB Querry, or executing an API on server.
 * Object is created after following a complex process, repeating that will not be possible.
@@ -13,7 +13,7 @@ There can be several answers to this, depending on the situation.
 
 ## Working of Prototype Design Pattern
 
-Working on Prototype design pattern is simple. We tell a prototype to clone itself and it will make its copy.<br\>
+Working on Prototype design pattern is simple. We tell a prototype to clone itself and it will make its copy.<br/>
 
 But first we need to add clone() function in the class. For that we will need a protocol. Lets call it Prototype.
 
