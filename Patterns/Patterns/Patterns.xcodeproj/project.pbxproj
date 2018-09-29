@@ -19,9 +19,12 @@
 		3C90E5E421576A06006511E7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E5E321576A06006511E7 /* TextView.swift */; };
 		3C95D8C0214A6B6500C26A71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8BF214A6B6500C26A71 /* main.swift */; };
 		3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */; };
+		3CA85117215F4362000B940C /* TheamDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA85116215F4362000B940C /* TheamDirector.swift */; };
+		3CAF79E1215BEC0B00BF10BD /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF79E0215BEC0B00BF10BD /* Builder.swift */; };
 		3CB16FE2214D18AE00AA1FC4 /* TXTFile.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3743214C054300EBB2E1 /* TXTFile.txt */; };
 		3CB16FE3214D18AE00AA1FC4 /* HTMLFile.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3744214C055700EBB2E1 /* HTMLFile.html */; };
 		3CB16FE4214D18AE00AA1FC4 /* RTFFile.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3746214C084100EBB2E1 /* RTFFile.rtf */; };
+		3CF7CA48215A807E004251C0 /* Theam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF7CA47215A807E004251C0 /* Theam.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +66,10 @@
 		3C95D8BC214A6B6500C26A71 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C95D8BF214A6B6500C26A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
+		3CA85116215F4362000B940C /* TheamDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheamDirector.swift; sourceTree = "<group>"; };
+		3CAF79E0215BEC0B00BF10BD /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		3CBC80052159D93100589482 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3CF7CA47215A807E004251C0 /* Theam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theam.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +86,7 @@
 		3C49692C214ABAA200EBF142 /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3CBC80042159D90E00589482 /* Builder */,
 				3C8AFA042157F4A8003B1B91 /* Prototype */,
 				3C655C202155EC4E00A4F1C2 /* AbstractFactory */,
 				3C496932214ACDC000EBF142 /* SimpleFactory */,
@@ -185,6 +193,17 @@
 			path = AbstractClass;
 			sourceTree = "<group>";
 		};
+		3CBC80042159D90E00589482 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				3CBC80052159D93100589482 /* README.md */,
+				3CF7CA47215A807E004251C0 /* Theam.swift */,
+				3CAF79E0215BEC0B00BF10BD /* Builder.swift */,
+				3CA85116215F4362000B940C /* TheamDirector.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,9 +266,12 @@
 				3C496935214AD08300EBF142 /* TextReader.swift in Sources */,
 				3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */,
 				3C4E3748214C224900EBB2E1 /* TextReaderFactory.swift in Sources */,
+				3CF7CA48215A807E004251C0 /* Theam.swift in Sources */,
 				3C49693B214AD21100EBF142 /* RTFReader.swift in Sources */,
 				3C95D8C0214A6B6500C26A71 /* main.swift in Sources */,
 				3C655C222155ECDD00A4F1C2 /* DocumentViewFactory.swift in Sources */,
+				3CA85117215F4362000B940C /* TheamDirector.swift in Sources */,
+				3CAF79E1215BEC0B00BF10BD /* Builder.swift in Sources */,
 				3C8AFA062157F4C0003B1B91 /* Prototype.swift in Sources */,
 				3C496937214AD1E100EBF142 /* HTMLReader.swift in Sources */,
 				3C90E5E021574B93006511E7 /* MediaView.swift in Sources */,
