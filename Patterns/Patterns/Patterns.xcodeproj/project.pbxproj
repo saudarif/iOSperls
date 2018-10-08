@@ -20,6 +20,13 @@
 		3C90E5E421576A06006511E7 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90E5E321576A06006511E7 /* TextView.swift */; };
 		3C95D8C0214A6B6500C26A71 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8BF214A6B6500C26A71 /* main.swift */; };
 		3C95D8C8214A6BA300C26A71 /* AbstractClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */; };
+		3C9A92A4216A347E00EA9A0C /* SecuredColoredTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A929F216A33B900EA9A0C /* SecuredColoredTextField.swift */; };
+		3C9A92A5216A348100EA9A0C /* LoginPageTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C16A98B21636D5300B7750B /* LoginPageTextField.swift */; };
+		3C9A92A6216A348300EA9A0C /* ColoredTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C88D89C2161151E007AB27F /* ColoredTextField.swift */; };
+		3CA431CF2160B30B00B1BCB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA431CE2160B30B00B1BCB7 /* AppDelegate.swift */; };
+		3CA431D12160B30B00B1BCB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA431D02160B30B00B1BCB7 /* LoginViewController.swift */; };
+		3CA431D32160B30D00B1BCB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA431D22160B30D00B1BCB7 /* Assets.xcassets */; };
+		3CA431D62160B30D00B1BCB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA431D42160B30D00B1BCB7 /* Main.storyboard */; };
 		3CA85117215F4362000B940C /* TheamDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA85116215F4362000B940C /* TheamDirector.swift */; };
 		3CAF79E1215BEC0B00BF10BD /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF79E0215BEC0B00BF10BD /* Builder.swift */; };
 		3CB16FE2214D18AE00AA1FC4 /* TXTFile.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C4E3743214C054300EBB2E1 /* TXTFile.txt */; };
@@ -44,6 +51,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3C16A98B21636D5300B7750B /* LoginPageTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageTextField.swift; sourceTree = "<group>"; };
 		3C49692B214A966F00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C49692D214ABACB00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C49692F214ABB6B00EBF142 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -61,6 +69,7 @@
 		3C6EF08721588EC000EE4B25 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C82A3C2215FBF59001A5C10 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3C82A3C3215FC3CD001A5C10 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		3C88D89C2161151E007AB27F /* ColoredTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredTextField.swift; sourceTree = "<group>"; };
 		3C8AFA052157F4C0003B1B91 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		3C90E5DF21574B93006511E7 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
 		3C90E5E12157577E006511E7 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
@@ -69,6 +78,15 @@
 		3C95D8BC214A6B6500C26A71 /* Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C95D8BF214A6B6500C26A71 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3C95D8C7214A6BA300C26A71 /* AbstractClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClass.swift; sourceTree = "<group>"; };
+		3C9A929F216A33B900EA9A0C /* SecuredColoredTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredColoredTextField.swift; sourceTree = "<group>"; };
+		3CA431C72160895000B1BCB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3CA431CC2160B30B00B1BCB7 /* AdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA431CE2160B30B00B1BCB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CA431D02160B30B00B1BCB7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3CA431D22160B30D00B1BCB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CA431D52160B30D00B1BCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CA431D72160B30D00B1BCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA431D82160B30D00B1BCB7 /* AdapterDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AdapterDemo.entitlements; sourceTree = "<group>"; };
 		3CA85116215F4362000B940C /* TheamDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheamDirector.swift; sourceTree = "<group>"; };
 		3CAF79E0215BEC0B00BF10BD /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		3CBC80052159D93100589482 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -77,6 +95,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3C95D8B9214A6B6500C26A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA431C92160B30B00B1BCB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -102,6 +127,7 @@
 		3C49692E214ABB4C00EBF142 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				3CA431C421606E6F00B1BCB7 /* Adapter */,
 				3C49692F214ABB6B00EBF142 /* README.md */,
 			);
 			path = Structural;
@@ -173,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				3C95D8BE214A6B6500C26A71 /* Patterns */,
+				3CA431CD2160B30B00B1BCB7 /* AdapterDemo */,
 				3C95D8BD214A6B6500C26A71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -181,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				3C95D8BC214A6B6500C26A71 /* Patterns */,
+				3CA431CC2160B30B00B1BCB7 /* AdapterDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +232,30 @@
 				3C49692B214A966F00EBF142 /* README.md */,
 			);
 			path = AbstractClass;
+			sourceTree = "<group>";
+		};
+		3CA431C421606E6F00B1BCB7 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3C88D89C2161151E007AB27F /* ColoredTextField.swift */,
+				3C16A98B21636D5300B7750B /* LoginPageTextField.swift */,
+				3C9A929F216A33B900EA9A0C /* SecuredColoredTextField.swift */,
+				3CA431C72160895000B1BCB7 /* README.md */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		3CA431CD2160B30B00B1BCB7 /* AdapterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3CA431CE2160B30B00B1BCB7 /* AppDelegate.swift */,
+				3CA431D02160B30B00B1BCB7 /* LoginViewController.swift */,
+				3CA431D22160B30D00B1BCB7 /* Assets.xcassets */,
+				3CA431D42160B30D00B1BCB7 /* Main.storyboard */,
+				3CA431D72160B30D00B1BCB7 /* Info.plist */,
+				3CA431D82160B30D00B1BCB7 /* AdapterDemo.entitlements */,
+			);
+			path = AdapterDemo;
 			sourceTree = "<group>";
 		};
 		3CBC80042159D90E00589482 /* Builder */ = {
@@ -237,6 +289,23 @@
 			productReference = 3C95D8BC214A6B6500C26A71 /* Patterns */;
 			productType = "com.apple.product-type.tool";
 		};
+		3CA431CB2160B30B00B1BCB7 /* AdapterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA431D92160B30D00B1BCB7 /* Build configuration list for PBXNativeTarget "AdapterDemo" */;
+			buildPhases = (
+				3CA431C82160B30B00B1BCB7 /* Sources */,
+				3CA431C92160B30B00B1BCB7 /* Frameworks */,
+				3CA431CA2160B30B00B1BCB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdapterDemo;
+			productName = AdapterDemo;
+			productReference = 3CA431CC2160B30B00B1BCB7 /* AdapterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -250,6 +319,9 @@
 					3C95D8BB214A6B6500C26A71 = {
 						CreatedOnToolsVersion = 9.4;
 					};
+					3CA431CB2160B30B00B1BCB7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
 				};
 			};
 			buildConfigurationList = 3C95D8B7214A6B6500C26A71 /* Build configuration list for PBXProject "Patterns" */;
@@ -258,6 +330,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 3C95D8B3214A6B6500C26A71;
 			productRefGroup = 3C95D8BD214A6B6500C26A71 /* Products */;
@@ -265,9 +338,22 @@
 			projectRoot = "";
 			targets = (
 				3C95D8BB214A6B6500C26A71 /* Patterns */,
+				3CA431CB2160B30B00B1BCB7 /* AdapterDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA431CA2160B30B00B1BCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA431D32160B30D00B1BCB7 /* Assets.xcassets in Resources */,
+				3CA431D62160B30D00B1BCB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C95D8B8214A6B6500C26A71 /* Sources */ = {
@@ -293,7 +379,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CA431C82160B30B00B1BCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9A92A4216A347E00EA9A0C /* SecuredColoredTextField.swift in Sources */,
+				3CA431D12160B30B00B1BCB7 /* LoginViewController.swift in Sources */,
+				3C9A92A6216A348300EA9A0C /* ColoredTextField.swift in Sources */,
+				3C9A92A5216A348100EA9A0C /* LoginPageTextField.swift in Sources */,
+				3CA431CF2160B30B00B1BCB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CA431D42160B30D00B1BCB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA431D52160B30D00B1BCB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C95D8C1214A6B6500C26A71 /* Debug */ = {
@@ -431,6 +540,42 @@
 			};
 			name = Release;
 		};
+		3CA431DA2160B30D00B1BCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdapterDemo/AdapterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdapterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.ssa.AdapterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3CA431DB2160B30D00B1BCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AdapterDemo/AdapterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AdapterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = personal.ssa.AdapterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -448,6 +593,15 @@
 			buildConfigurations = (
 				3C95D8C4214A6B6500C26A71 /* Debug */,
 				3C95D8C5214A6B6500C26A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA431D92160B30D00B1BCB7 /* Build configuration list for PBXNativeTarget "AdapterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA431DA2160B30D00B1BCB7 /* Debug */,
+				3CA431DB2160B30D00B1BCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
